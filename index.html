@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+</head>
+<body>
+    <div class="container">
+        <div class="container-form">
+            <form action="" class="form" id="form">
+                <h2>Add book</h2>
+                <div id="first-input" class="form-item">
+                    <label for title>Title</label>
+                    <input type="text" id="title">
+                    <small>Title is required</small>
+                </div>
+                <div class="form-item">
+                    <label for author>Author</label>
+                    <input type="text" id="author">
+                    <small>Author is required</small>
+                </div>
+                <div class="form-item">
+                    <label for isbn>ISBN#</label>
+                    <input type="text" id="isbn">
+                    <small>ISBN is required</small>
+                </div>
+                <button type="submit" id="add">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="container-table">
+        <table id="book">
+            <th>Title</th>
+            <th>Author</th>
+            <th>ISBN#</th>
+            <th>Option</th>
+        </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
